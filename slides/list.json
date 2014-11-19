@@ -4,6 +4,12 @@
     "grunt.html",
     "grunt2.html",
     "grunt3.html",
-    "grunt.html",
-    "bower.html"
+    "bower.html",
+    "bower2.html",
+    "bower3.html",
+    "install.html",
+    "nodejs.html",
+    "nodejs2.html",
+    "npm.html",
+    "npm2.html"
 ]
