@@ -1,0 +1,22 @@
+<h2>Gruntfile.js</h2>
+<pre>
+	<code data-trim>
+module.exports = function(grunt) {
+  grunt.initConfig({
+  concat: {
+    dist: {
+      src: ['src/**/*.js'],
+      dest: 'dist/concatenated.js'
+    }	},
+
+  uglify: {
+    dist: {
+      src: ['dist/concatenated.js'],
+      dest: 'dist/concatenated-min.js'
+			    } }	} });    
+  grunt.loadNpmTasks('grunt-contrib-uglify');
+  grunt.loadNpmTasks('grunt-contrib-concat');
+  grunt.registerTask('default', ['concat', 'uglify']);
+};
+	</code>
+</pre>
